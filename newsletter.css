@@ -1,5 +1,20 @@
 /* Services section styles */
+#w#newslettertitle {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
+#newslettertitile .container .box {
+    justify-content: center;
+    text-align: center;
+    width: 475px;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 auto;
+}
 #newslettergallery .box{
     position:  relative;
     height: 500px;
@@ -14,24 +29,10 @@
     text-align: center;
 }
 
-#newslettergallery .container .box .icon {
-    position: relative;
-    width: 70px;
-    height: 70px;
-    color: #000000;
-    background: #eff245;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    border-radius: 50%;
-    font-weight: 700;
-}
-
 #newslettergallery img {
-    max-width: 75%;
-    height: 100%;
-    padding: 10px 10px;
+    max-width: 100%;
+    padding: auto;
     display: flex;
+    position: center;
 }
 
