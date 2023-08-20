@@ -6,15 +6,25 @@
     text-align: center;
 }
 
+#newslettertitile .container {
+    max-height: 50px;
+}
+
 #newslettertitile .container .box {
     justify-content: center;
     text-align: center;
-    width: 475px;
+    width: auto;
     position: relative;
     padding: 0;
     overflow: hidden;
     margin: 0 auto;
+    max-height: 50px;
 }
+
+#newslettertitle h1 {
+    text-align: center;
+}
+
 #newslettergallery .box{
     position:  relative;
     height: 500px;
@@ -36,3 +46,15 @@
     position: center;
 }
 
+#newslettergallery h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#newslettergallery p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    --max-lines: 3;
+}
