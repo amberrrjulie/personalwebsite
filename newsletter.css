@@ -1,0 +1,60 @@
+/* Services section styles */
+#w#newslettertitle {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#newslettertitile .container {
+    max-height: 50px;
+}
+
+#newslettertitile .container .box {
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 50px;
+}
+
+#newslettertitle h1 {
+    text-align: center;
+}
+
+#newslettergallery .box{
+    position:  relative;
+    height: 500px;
+    width: 50px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 4px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+#newslettergallery img {
+    max-width: 100%;
+    padding: auto;
+    display: flex;
+    position: center;
+}
+
+#newslettergallery h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#newslettergallery p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    --max-lines: 3;
+}
