@@ -90,6 +90,10 @@
 
   /* Services section styles */
 
+  #services .container {
+    justify-content: center;
+  }
+
   #services .container .box{
     position:  relative;
     width: 350px;
