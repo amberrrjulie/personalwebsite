@@ -3,102 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Amber Julie Nez | Platform Engineer &amp; Creator</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <title>Amber Julie Nez | Platform Engineer, Creator &amp; Entrepreneur</title>
+    <meta name="description" content="Amber Julie Nez &mdash; Platform Engineer, tech &amp; lifestyle creator, and entrepreneur.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Amber Julie Nez | Platform Engineer, Creator &amp; Entrepreneur">
+    <meta property="og:description" content="Platform Engineer, tech &amp; lifestyle creator, and entrepreneur.">
+    <meta property="og:image" content="https://www.amberrrjulie.com/og-image.png">
+    <meta property="og:url" content="https://www.amberrrjulie.com/">
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
     <header>
-                <!-- Navigation Bar -->
-        <img src="logos/INTGRTY_logo2.png" class= "logo" alt="Logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="wrap">
+            <a href="index.html" class="brand">Amber Julie Nez</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="content.html">Content</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <!-- Main Content -->
-        <section id="intro">
+        <section id="intro" class="wrap dot-grid">
             <div class="container">
                 <div class="box">
-                    <img src="images/portrait.jpeg" alt="Portrait of Amber">
+                    <span class="status"><span class="status-dot"></span>Status: Building</span>
+                    <span class="eyebrow">Platform Engineer &middot; Creator &middot; Entrepreneur</span>
+                    <h1>Hi, I'm Amber.<span class="cursor">_</span></h1>
+                    <p>By day I work as a Platform Engineer, building and maintaining the systems behind the scenes. The rest of the time I'm creating &mdash; tech content over at <a href="https://www.tiktok.com/@amberrrjulie" class="link-accent" target="_blank" rel="noopener noreferrer">@amberrrr.tech</a>, and the rest of my life at <a href="https://www.instagram.com/amberrrjulie" class="link-accent" target="_blank" rel="noopener noreferrer">@amberrrjulie</a>.</p>
+                    <a href="contact.html" class="btn">Get In Touch</a>
                 </div>
-                <div class="box">
-                    <div class="content">
-                        <h1>Hi, I'm Amber</h1>
-                        <h2>Platform Engineer &amp; Tech + Lifestyle Creator</h2>
-                        <p>By day I'm a Platform Engineer at Xcel Energy. The rest of the time I'm building and sharing online &mdash; tech content over at @amberrrr.tech, and the rest of my life at @amberrrjulie.</p>
-                    </div>
-                    <a href="contact.html">
-                    <button>Get In Touch</button>
-                    </a>
+                <div class="box glow">
+                    <img src="images/portrait.jpeg" alt="Portrait of Amber">
                 </div>
             </div>
         </section>
 
-        <section id="about">
+        <section id="about" class="wrap">
             <div class="container">
-                <div class="box">
-                    <div class="content">
-                        <h1>About Me</h1>
-                        <p>I got my start as a Systems Analyst and worked my way into Platform Engineering, so I spend a lot of my time thinking about how things are built and kept running. Outside of work, I'm just as into documenting the process &mdash; what I'm learning in tech, and everything else that makes up my life.</p>
-                    </div>
-                </div>
                 <div class="box">
                     <img src="images/standingup.jpeg" alt="Picture of Amber standing up.">
                 </div>
-            </div>
-        </section>
-
-        <section id="what-i-do">
-            <div class="container">
                 <div class="box">
-                    <div class="content">
-                        <h1>What I Do</h1>
-                    </div>
+                    <span class="eyebrow">About</span>
+                    <h2>From Systems Analyst to Platform Engineer.</h2>
+                    <p>I got my start as a Systems Analyst and worked my way into Platform Engineering, so I spend a lot of my time thinking about how things are built and kept running. Outside of work, I'm just as into documenting the process &mdash; what I'm learning in tech, and everything else that makes up my life.</p>
                 </div>
             </div>
         </section>
 
-
-        <section id="services">
-            <div class="container">
-                <div class="box">
-                    <div class="icon">01</div>
-                    <div class="content">
-                        <h3>Platform Engineering</h3>
-                        <p>I build and maintain the systems behind the scenes at Xcel Energy.</p>
-                    </div>
+        <section id="services" class="wrap">
+            <span class="eyebrow">What I Do</span>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="num">01</span>
+                    <h3>Platform Engineering</h3>
+                    <p>I build and maintain the systems that keep things running behind the scenes.</p>
                 </div>
-                <div class="box">
-                    <div class="icon">02</div>
-                    <div class="content">
-                        <h3>Tech Content</h3>
-                        <p>@amberrrr.tech is where I share what I'm learning in tech.</p>
-                    </div>
+                <div class="service-card">
+                    <span class="num">02</span>
+                    <h3>Tech Content</h3>
+                    <p>@amberrrr.tech is where I share what I'm learning in tech.</p>
                 </div>
-                <div class="box">
-                    <div class="icon">03</div>
-                    <div class="content">
-                        <h3>Lifestyle</h3>
-                        <p>@amberrrjulie is the rest of my life, documented.</p>
-                    </div>
+                <div class="service-card">
+                    <span class="num">03</span>
+                    <h3>Lifestyle</h3>
+                    <p>@amberrrjulie is the rest of my life, documented.</p>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-            <!-- Footer Content -->
+        <div class="wrap">
             <div class="social-media-links">
-                <a href="https://www.linkedin.com/in/amberjnez" target="_blank" rel="noopener noreferrer"><img src="logos/linkedin.svg" alt="LinkedIn"></a>
-                <a href="https://www.instagram.com/amberrrjulie" target="_blank" rel="noopener noreferrer"><img src="logos/instagram.svg" alt="Instagram"></a>
-                <a href="https://www.tiktok.com/@amberrrjulie" target="_blank" rel="noopener noreferrer"><img src="logos/tiktok.svg" alt="TikTok"></a>
-                <a href="https://www.youtube.com/@amberrrjulie" target="_blank" rel="noopener noreferrer"><img src="logos/youtube.svg" alt="YouTube"></a>
+                <a href="https://www.linkedin.com/in/amberjnez" target="_blank" rel="noopener noreferrer" class="icon-link icon-linkedin" aria-label="LinkedIn"></a>
+                <a href="https://www.instagram.com/amberrrjulie" target="_blank" rel="noopener noreferrer" class="icon-link icon-instagram" aria-label="Instagram"></a>
+                <a href="https://www.tiktok.com/@amberrrjulie" target="_blank" rel="noopener noreferrer" class="icon-link icon-tiktok" aria-label="TikTok"></a>
+                <a href="https://www.youtube.com/@amberrrjulie" target="_blank" rel="noopener noreferrer" class="icon-link icon-youtube" aria-label="YouTube"></a>
             </div>
+        </div>
     </footer>
 </body>
 </html>
