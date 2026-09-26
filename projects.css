@@ -4,7 +4,8 @@
 }
 
 #projects {
-  padding: 48px 0 96px;
+  padding-top: 48px;
+  padding-bottom: 96px;
 }
 
 .projects-grid {

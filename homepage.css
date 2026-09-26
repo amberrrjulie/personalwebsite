@@ -3,7 +3,8 @@
 }
 
 #services {
-  padding: 64px 0 96px;
+  padding-top: 64px;
+  padding-bottom: 96px;
 }
 
 #services .eyebrow {
