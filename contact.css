@@ -1,11 +1,10 @@
-/* Add a background color and some padding around the content */
-.container {
-    border-radius: 5px;
-    background: #f7f7f7;
-    padding: 20px;
+#contact .container {
+  grid-template-columns: 1fr;
+  min-height: 60vh;
+  justify-items: center;
+  text-align: center;
 }
 
-#SME_1 img {
-    max-width: 100%;
-    height: auto;
+#contact p {
+  max-width: 46ch;
 }

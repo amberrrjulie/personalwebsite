@@ -7,17 +7,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="projects.css">
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <title>Contact | Amber Julie Nez</title>
-    <meta name="description" content="Get in touch with Amber Julie Nez.">
+    <title>Projects | Amber Julie Nez</title>
+    <meta name="description" content="Projects by Amber Julie Nez.">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Contact | Amber Julie Nez">
-    <meta property="og:description" content="Get in touch with Amber Julie Nez.">
+    <meta property="og:title" content="Projects | Amber Julie Nez">
+    <meta property="og:description" content="Projects by Amber Julie Nez.">
     <meta property="og:image" content="https://www.amberrrjulie.com/og-image.png">
-    <meta property="og:url" content="https://www.amberrrjulie.com/contact.html">
+    <meta property="og:url" content="https://www.amberrrjulie.com/projects.html">
     <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
@@ -27,22 +27,42 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
                     <li><a href="content.html">Content</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section id="contact" class="wrap">
-            <div class="container">
-                <div class="box">
-                    <span class="eyebrow">Contact</span>
-                    <h1>Let's connect.</h1>
-                    <p>I don't have a contact form set up yet &mdash; the fastest way to reach me is on social.</p>
+        <section id="projects-hero" class="wrap">
+            <span class="eyebrow">Selected Work</span>
+            <h1>Projects</h1>
+            <p>A mix of what's shipped and what's brewing.</p>
+        </section>
+
+        <section id="projects" class="wrap">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <span class="tag live">Live</span>
+                    <h3>Next.js Dashboard</h3>
+                    <p>A dashboard app built with Next.js and TypeScript, deployed on Vercel.</p>
+                    <a href="https://nextjs-dashboard-psi-lac-33.vercel.app" class="project-link" target="_blank" rel="noopener noreferrer">View project &rarr;</a>
                 </div>
+                <div class="project-card">
+                    <span class="tag">In Progress</span>
+                    <h3>AI Automation Tool</h3>
+                    <p>Something to make repetitive work disappear. Details coming soon.</p>
+                </div>
+                <div class="project-card">
+                    <span class="tag">In Progress</span>
+                    <h3>AI Content Assistant</h3>
+                    <p>Helping turn ideas into content, faster. Details coming soon.</p>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <a href="https://github.com/amberrrjulie" class="btn btn-outline" target="_blank" rel="noopener noreferrer">See more on GitHub</a>
             </div>
         </section>
     </main>
