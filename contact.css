@@ -8,3 +8,78 @@
 #contact p {
   max-width: 46ch;
 }
+
+#contact-form {
+  width: 100%;
+  max-width: 46ch;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-row {
+  display: flex;
+  gap: 14px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 12px 14px;
+}
+
+#contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+  color: var(--muted);
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+#contact-form .btn {
+  align-self: center;
+  margin-top: 0.25rem;
+}
+
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.form-status {
+  min-height: 1.2em;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.8rem;
+}
+
+.form-status.success {
+  color: var(--accent);
+}
+
+.form-status.error {
+  color: #ff6b6b;
+}
+
+@media (max-width: 520px) {
+  .form-row {
+    flex-direction: column;
+  }
+}
