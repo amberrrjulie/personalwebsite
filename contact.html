@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="contact.css">
+    <script src="contact.js" defer></script>
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -41,7 +42,17 @@
                 <div class="box">
                     <span class="eyebrow">Contact</span>
                     <h1>Let's connect.</h1>
-                    <p>I don't have a contact form set up yet &mdash; the fastest way to reach me is on social.</p>
+                    <p>Got a project, an idea, or just want to say hi? Send a message and I'll get back to you.</p>
+                    <form id="contact-form" action="https://formspree.io/f/mppwbjly" method="POST">
+                        <div class="form-row">
+                            <input type="text" name="name" id="name" placeholder="Name" autocomplete="name" required>
+                            <input type="email" name="email" id="email" placeholder="Email" autocomplete="email" required>
+                        </div>
+                        <textarea name="message" id="message" placeholder="What's up?" rows="5" required></textarea>
+                        <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+                        <button type="submit" class="btn">Send Message</button>
+                        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+                    </form>
                 </div>
             </div>
         </section>

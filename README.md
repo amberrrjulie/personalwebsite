@@ -20,13 +20,14 @@ A static personal site: who I am, what I do, a look at my projects, and a UGC co
 - **Home** &mdash; intro, bio, what I do
 - **Projects** &mdash; things I've built and things in progress
 - **Content** &mdash; a sample of my UGC/creator work
-- **Contact** &mdash; where to find me
+- **Contact** &mdash; get in touch directly via the contact form
 
 ## Built With
 
 - HTML5 &amp; CSS3, no framework
 - [Inter](https://fonts.google.com/specimen/Inter) &amp; [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono)
 - TikTok embed API for the Content page
+- [Formspree](https://formspree.io) for the Contact page form
 - Deployed via GitHub Pages
 
 ---
