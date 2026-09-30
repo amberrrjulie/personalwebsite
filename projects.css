@@ -62,17 +62,6 @@
   margin-top: 48px;
 }
 
-.btn-outline {
-  background: transparent;
-  color: var(--accent);
-  border: 1px solid var(--accent);
-}
-
-.btn-outline:hover {
-  background: var(--accent);
-  color: var(--bg);
-}
-
 @media (max-width: 720px) {
   .projects-grid {
     grid-template-columns: 1fr;
