@@ -13,8 +13,20 @@
   padding-bottom: 0;
 }
 
+#videos {
+  padding-top: 48px;
+  padding-bottom: 0;
+}
+
+#videos .eyebrow,
+#content-grid .eyebrow {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
 .podcast-card {
-  max-width: 560px;
+  max-width: 700px;
   margin: 0 auto;
   text-align: center;
   border: 1px solid var(--border);
@@ -65,6 +77,12 @@
   border: 1px solid var(--border);
   border-radius: 6px;
   padding: 20px;
+  text-align: center;
+}
+
+.embed-card .tiktok-embed {
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .embed-card .tag {
